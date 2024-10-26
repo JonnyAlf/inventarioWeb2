@@ -1,0 +1,25 @@
+/* Estilo da Modal */
+.modal {
+    padding: 30px; /* Aumente o padding do modal para mais espaço interno */
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px; /* Aumente a largura máxima do modal aqui */
+    margin: auto;
+}
+
+
+/* Título da Modal */
+.modal-title {
+    font-size: 1.8rem; /* Aumenta o tamanho da fonte */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    color: #333; /* Cor do título */
+    text-align: center; /* Centraliza o título */
+}
+
+/* Conteúdo da Modal */
+.modal-content {
+    display: flex;
+    flex-direction: column; /* Coloca os elementos em coluna */
+    gap: 15px; /* Adiciona espaço entre os inputs */
+}
